@@ -1,0 +1,6 @@
+function [] = QuoTS_search(X, win_size, query)
+    %1 - extract word feature vectors
+    [KEY_VECTOR1, KEY_VECTOR2, KEY_VECTOR3] = word_feature_extraction(X, win_size);
+    %2 - performs search on the signal
+    [scores, signal_groups] = query_search(query, win_size);
+end

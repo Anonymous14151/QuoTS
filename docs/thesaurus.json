@@ -1,0 +1,7 @@
+{
+'up':['rising', 'up', 'rise', 'upward'],
+'down':['falling', 'down', 'fall', 'downard'],
+'symmetric':['symmetric', 'symmetrical', 'balanced', 'commensurate'],
+'asymetric':['asymmetric', 'unbalanced', 'asymmetrical'],
+'complex':['complex']
+}
