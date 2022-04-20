@@ -21,6 +21,17 @@ visualized at "examples\wordfv_match.md".
 
 You can also use the available interface at "\interface\Quots_app.mlapp" and load the available example signals (example_1, example_2, example_3 and example_4). 
 
+### QuoTS for UCR examples
+
+You can also use QuoTS to sort classes of signals based on a query. For that you can use the available interface at "interfaces\NL_UCR_DATA_app.mlapp". Use the name of the UCR dataset
+and it can be used to sort descritely each signal based on a specific query.
+
 ### Dataset
 
 We share the acquired dataset, which can be used as "example_3" on the interface. More information on the dataset setup and acquisition is available at "datasets\example3\".
+
+### Using specific shapes as queries
+In order to use queries based on specific shapes that you might 
+have available, you can add a txt file at "docs\special_wfv\". The 
+file name should be the word to assign to the signal inside the txt file.
+Only 1D signals are supported.
