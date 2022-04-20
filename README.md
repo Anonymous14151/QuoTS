@@ -18,6 +18,7 @@ from your own signal using the method **Quots(signal, win_size)**.
 
 The code for each word feature vector is available as well and can be 
 visualized at "examples\wordfv_match.md".
+An example of high level behavior analysis is also found at "example\higher_level_behavior.md".
 
 You can also use the available interface at "\interface\Quots_app.mlapp" and load the available example signals (example_1, example_2, example_3 and example_4). 
 
