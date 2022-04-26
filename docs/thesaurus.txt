@@ -20,7 +20,7 @@ simple simple
 uval uval
 uvalley uval
 u-valley uval
-vval	vval
+vval vval
 vvalley vval
 v-val vval
 plateau plateauup
