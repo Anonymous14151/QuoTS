@@ -101,7 +101,7 @@ function d = multi_d_scale_vector_generation(d, s, i, win_size)
     [~, d{i, 10}] = gauss_val_moving(s, 0.1, 2*win_size);
     
     [d{i,11}, d{i,12}] = moving_step(s, win_size*2);
-    [d{i,13}, d{i,14}] = moving_plateau(s, win_size*2);
+    [d{i,13}, d{i,14}] = moving_plateau(s, win_size);
 
     d{i,19} = v_gauss_val_moving(s, 2*win_size);
     d{i,20} = u_gauss_val_moving(s, 2*win_size);
